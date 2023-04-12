@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alignment</title>
+    <style>
+        *{
+            clear: left;
+            box-sizing: border-box;
+
+        }
+        .container{
+            clear: left;
+            width: 900px;
+            border: 3px solid rgb(251, 27, 251)    ;    
+            margin: auto;
+        }
+        .item{
+            border: 3px solid gray;
+            margin: 12px 3px;
+            padding: 12px 3px;
+            background-color: rgb(255, 255, 255);
+        }
+        
+        #fruits{
+            float: left ;
+            width: 50%;
+
+            color: red;
+            font-size: larger;
+        }
+        #fruitspara{
+            font-size: large;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 4000px;
+        }
+        
+        #computer{
+            color: blue;
+            float: left;
+            width: 48%;
+        }
+        #stationary{
+            color: yellow;
+            float: left;
+            width: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="fruits" class = 'item' >
+            <h3>Fruits</h3>
+
+            <p id="fruitspara " class="para">This table is for the fruits</p>
+        </div>
+
+        <div id="computer" class = 'item' >
+            <h3>Fruits</h3>
+            <p id="computerpara" class="para">This table is for the Computer</p>
+        </div>
+
+        <div id="stationary" class = 'item' >
+            <h3>Fruits</h3>
+            <p id="stationarypara " class="para">This table is for the Stationary</p>
+        </div>
+        
+    </div>
+</body>
+</html>

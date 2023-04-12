@@ -1,0 +1,20 @@
+.paragraph{
+    color: yellow;
+}
+/* class selector */
+.sentence{
+    color: pink;
+    background-color: black;
+    padding: 0%;
+    
+
+}
+/* id selector */
+#division{
+    color: blue;
+    /* This is comment for css */
+}
+
+.group1{
+color: yellowgreen;
+}
